@@ -247,6 +247,7 @@ main {
     font-size: 1.2rem;
   }
 }
+
 @media screen and (max-width: 500px) {
   .container {
     max-width: 90%;
@@ -257,7 +258,7 @@ main {
     margin-top: 1rem;
   }
   .dice {
-    margin-left: 3rem;
+    margin-left: 1.9rem;
   }
   .btn--new {
     margin-left: 3rem;
@@ -275,20 +276,19 @@ main {
     font-size: 1rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
   .container {
+    max-width: 90%;
     margin: 0 auto;
   }
-  .dice {
-    height: 6rem;
+
+  html {
+    font-size: 38%;
   }
-  .current {
-    width: 100%;
+  main {
+    height: 420px;
   }
-  .current-label {
-    font-size: 1.2rem;
-  }
-  .name {
-    font-size: 1.4rem;
+  section {
+    height: 420px;
   }
 }
