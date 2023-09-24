@@ -247,3 +247,48 @@ main {
     font-size: 1.2rem;
   }
 }
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .name {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .dice {
+    margin-left: 3rem;
+  }
+  .btn--new {
+    margin-left: 3rem;
+  }
+  .btn--hold {
+    margin-left: 2rem;
+  }
+  .btn--roll {
+    margin-left: 2rem;
+  }
+  .current {
+    width: 100%;
+  }
+  .current-label {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 0 auto;
+  }
+  .dice {
+    height: 6rem;
+  }
+  .current {
+    width: 100%;
+  }
+  .current-label {
+    font-size: 1.2rem;
+  }
+  .name {
+    font-size: 1.4rem;
+  }
+}
