@@ -247,48 +247,58 @@ main {
     font-size: 1.2rem;
   }
 }
-
-@media screen and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 520px) {
   .container {
     max-width: 90%;
     margin: 0 auto;
   }
+
+  .player--active {
+    width: 50%;
+  }
+
   .name {
-    font-size: 1.2rem;
-    margin-top: 1rem;
+    font-size: 2.5rem;
   }
+
+  .player {
+    text-align: center;
+    padding: 0;
+    padding-top: 9rem;
+  }
+
+  .score {
+    margin-top: 15rem;
+    font-size: 5rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 0.1rem 2rem 0.2rem;
+  }
+
   .dice {
-    margin-left: 1.9rem;
+    height: 8rem;
   }
-  .btn--new {
-    margin-left: 3rem;
+
+  .current-label {
+    font-size: 1.5rem;
   }
-  .btn--hold {
-    margin-left: 2rem;
+
+  .current {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
   }
   .btn--roll {
-    margin-left: 2rem;
-  }
-  .current {
-    width: 100%;
-  }
-  .current-label {
-    font-size: 1rem;
-  }
-}
-@media screen and (max-width: 400px) {
-  .container {
-    max-width: 90%;
-    margin: 0 auto;
+    top: 48rem;
   }
 
-  html {
-    font-size: 38%;
+  .btn--hold {
+    top: 53rem;
   }
-  main {
-    height: 420px;
-  }
-  section {
-    height: 420px;
+
+  .current-score {
+    font-size: 3rem;
   }
 }
